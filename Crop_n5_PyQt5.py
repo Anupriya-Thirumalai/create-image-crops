@@ -627,7 +627,7 @@ class Crop_n5(QMainWindow):
     msg.exec_()
 
  def fusedn5buttonclicked(self):
-   self.folderpath = PyQt5.QtWidgets.QFileDialog.getExistingDirectory(self, 'Select Folder of fused n5 data',"\\\\wfs-$$$$$$\\$$$$$$\\$$$\\", QFileDialog.ShowDirsOnly)
+   self.folderpath = PyQt5.QtWidgets.QFileDialog.getExistingDirectory(self, 'Select Folder of fused n5 data',"path/to/your/n5/dataset", QFileDialog.ShowDirsOnly)
    print(self.folderpath)
    if hasattr(self, 'tiledn5button_mainlayout'):
      self.clear_layout(self.fusedn5button_mainlayout)   
@@ -636,7 +636,7 @@ class Crop_n5(QMainWindow):
 
 
  def tiledn5buttonclicked(self):   
-   self.folderpath = PyQt5.QtWidgets.QFileDialog.getExistingDirectory(self, "Select Folder of tiled n5 data","\\\\wfs-$$$$$$\\$$$$$$\\$$$\\", QFileDialog.ShowDirsOnly)
+   self.folderpath = PyQt5.QtWidgets.QFileDialog.getExistingDirectory(self, "Select Folder of tiled n5 data","path/to/your/n5/dataset", QFileDialog.ShowDirsOnly)
    
    if hasattr(self, 'tiledn5button_mainlayout'):
      self.clear_layout(self.tiledn5button_mainlayout)   

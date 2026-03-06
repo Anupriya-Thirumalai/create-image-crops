@@ -126,7 +126,7 @@ class LoadAndCropImage():
                 continue
 
 
-pathstring = (r"Z:\$$$$\$$$\$$$\$$$\mouseC_PV488_Myo6568")
+pathstring = (r"path/to/your/n5/dataset")
 
 #img=LoadAndCropImage(pathstring)
 
