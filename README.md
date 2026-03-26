@@ -74,4 +74,4 @@ These tools were developed as part of a lab-wide deep learning segmentation pipe
 ## Author
 
 Anupriya Thirumalai  
-[LinkedIn](https://www.linkedin.com/in/anupriyathirumalai/) | [Email](anupriya.thirumalai@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/anupriyathirumalai/) | [ORCID](https://orcid.org/0000-0002-3624-0343)
